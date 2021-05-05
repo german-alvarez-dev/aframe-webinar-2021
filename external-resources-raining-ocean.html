@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>WebAR con A-Frame</title>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+    <script
+        src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+</head>
+
+<body>
+
+    <a-scene>
+
+        <a-sky width="2048" height="2048" material="shader: flat; src: textures/sky.jpg" radius="30" theta-length="90">
+        </a-sky>
+
+        <a-entity position="0 2.25 -15" particle-system="preset: rain;"></a-entity>
+
+        <a-ocean density="200" width="250" depth="250" speed="3" material="color: #9CE3F9; opacity: 0.7; metalness: 0;"
+            rotation="-90 0 0" position="0 .8 0"></a-ocean>
+
+        <a-gltf-model src="ship/scene_ship.gltf" position="0 0 -70"
+            animation="property: rotation; from: 0 50 0; to: 3 50 0; loop: true; dur: 3000; dir: alternate">
+        </a-gltf-model>
+
+        <a-entity light="type: ambient; color: #555"></a-entity>
+
+    </a-scene>
+</body>
+
+</html>

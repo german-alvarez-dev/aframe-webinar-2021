@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>WebAR con A-Frame</title>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-entity
+            geometry="primitive: sphere"
+            material="color: #EFEFEF; shader: flat; src: textures/wood.jpg"
+            position="-4 0 -8"
+            animation="property: position; to: 4 0 -8; dur: 6000; easing: easeInOutQuad; dir: alternate; loop: true;">
+       </a-entity>
+
+       <a-entity
+            geometry="primitive: sphere"
+            material="color: #EFEFEF; shader: flat; src: textures/wood.jpg"
+            position="0 -4 -10"
+            animation="property: position; to: 0 4 -10; dur: 3000; easing: easeInOutQuad; dir: alternate; loop: true;">
+        </a-entity>
+       
+    </a-scene>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>WebAR con A-Frame</title>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+
+</head>
+
+<body>
+
+    <a-scene>
+
+        <a-entity geometry="primitive: sphere; radius: 1.5"
+        material="color: white; shader: flat; src: textures/marble.jpg" position="5 10 -20"
+        animation="property: position; to: 5 2 -20; dur: 3000; easing: easeInOutQuad; dir: alternate; loop: true;"
+        light="type:point; color: white; intensity: 1"></a-entity>
+
+       <a-entity geometry="primitive: sphere; radius: 1.5"
+        material="color: white; shader: flat; src: textures/marble.jpg" position="-5 10 -20"
+        animation="property: position; to: -5 2 -20; dur: 3000; easing: easeInOutQuad; dir: alternate; loop: true; delay: 1000"
+        light="type:point; color: white; intensity: 1"></a-entity>
+
+       <a-sky height="2048" radius="30" color="black" theta-length="90" width="2048"></a-sky>
+
+       <a-plane material="color:#111;" rotation="-90 0 0" height="100" width="100" position="0 0 0"></a-plane>
+       
+    </a-scene>
+
+</body>
+
+</html>
+
