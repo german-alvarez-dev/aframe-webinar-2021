@@ -4,7 +4,7 @@ Materials + challenge from the [A-Frame](https://aframe.io/) Webinar @ Ironhack 
 
 ## Contents
 
-Here you'll find several A-frame scenes to enjoy, including textures, shapes, models from [SketchFab](https://sketchfab.com/), external resources from the community and interaction examples (both fuse and mouse). Don't hesitate to visit [A-Frame](https://aframe.io/) docs to expand your knowledge!
+Here you'll find several A-frame scenes to enjoy, including shapes, textures, models from [SketchFab](https://sketchfab.com/), external resources from the community and interaction examples (both fuse and mouse). Don't hesitate to visit [A-Frame](https://aframe.io/) docs to expand your knowledge!
 
 **Remember**: you also have all the examples we used at the Webinar [available on Codepen](https://codepen.io/collection/zxYOYZ).
 
