@@ -14,7 +14,7 @@ Clone this repo, or download the files using the "Code" green button at the top.
 
 All files run on your browser, but to properly experience them you'll need to enable a local server on your computer. [A-frame docs](https://aframe.io/docs/1.2.0/introduction/installation.html) has many suggestions about how to archieve this, but if you are familiar with NodeJS I suggest you [live server](https://www.npmjs.com/package/live-server) package.
 
-Also, you can always use each file content's on Codepen. Just paste the `<body>` contents on a new Pen, and don't forget to include before Aframe CDN as we did [on the examples showed in the Webinar](https://codepen.io/collection/zxYOYZ).
+Also, you can always use each file content's on Codepen. Just paste the `<body>` contents on a new Pen, and don't forget to include before Aframe CDN script as we did [on the examples showed in the Webinar](https://codepen.io/collection/zxYOYZ).
 
 
 ## Extra resources for A-frame
