@@ -15,8 +15,6 @@ All files run on your browser, but to properly experience them you'll need to en
 Also, you can always use each file content's on Codepen, just paste the `<body>` contents on a new Pen, and don't forget to include before Aframe CDN as we did [on the examples showed in the Webinar](https://codepen.io/collection/zxYOYZ).
 
 
-## Explore!
-
 ## Extra resources for A-frame
 
 ### Inspiration
